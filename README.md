@@ -5,24 +5,9 @@
 
 <br/>
 
-### 💻 Sistem Durumu & Hakkımda
-
-```zsh
-Last login: Mon Apr 03 10:45:00 on console
-
-hyperzno@macbook-pro ~ % whoami
-Bünyamin Kızılkaya
-
-hyperzno@macbook-pro ~ % cat hakkimda.txt
-Merhaba! Ben modern, dinamik ve kullanıcı dostu web uygulamaları 
-geliştirmeye tutkulu bir Frontend geliştiricisiyim.
-Özellikle React, Next.js ve dikkat çekici, "Premium" kullanıcı arayüzleri 
-tasarlama konusunda çalışmayı seviyorum.
-
-hyperzno@macbook-pro ~ % ./su_an_ne_yapiyorum.sh
-> "Sürekli olarak yeni web teknolojilerini öğreniyor ve 
-   modern e-ticaret ve envanter uygulamaları inşa ediyorum."
-```
+<p align="center">
+  <img src="terminal.svg" alt="Terminal Window" width="100%" />
+</p>
 
 <br/>
 
