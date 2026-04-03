@@ -1,5 +1,4 @@
 <div align="center">
-  <h1>👋 Merhaba, Ben <a href="https://github.com/hyperzno">Bünyamin</a>!</h1>
   <p><b>Frontend Geliştirici | Web Uygulamaları & UI/UX Tutkunu</b></p>
 </div>
 
