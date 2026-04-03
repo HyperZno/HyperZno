@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="270" viewBox="0 0 800 270">
+  <defs>
+    <style>
+      .title { font: 800 34px 'SF Pro Display', -apple-system, sans-serif; fill: #FFFFFF; }
+      .prompt { font: 600 14px 'Fira Code', monospace; fill: #38BDF8; }
+      .command { font: 500 14px 'Fira Code', monospace; fill: #E2E8F0; }
+      .output { font: 400 14px 'Fira Code', monospace; fill: #94A3B8; }
+      .accent { fill: #38BDF8; font-weight: bold; }
+      .bar-bg { fill: #1E293B; }
+      .bar-fill { fill: #38BDF8; }
+      .bar-fill-secondary { fill: #818CF8; }
+      .bar-fill-tertiary { fill: #475569; }
+      .terminal-top text { font: 600 13px 'Fira Code', monospace; fill: #64748B; }
+      .tag { font: 12px 'Fira Code', monospace; font-weight: 600; }
+    </style>
+    
+    <!-- Daha koyu ve minimal bir gradient yapı -->
+    <linearGradient id="bg_grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    
+    <!-- Noktalı doku efekti (Subtle dots) -->
+    <pattern id="noise" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#38BDF8" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- Arka Plan Görünümü -->
+  <rect width="800" height="270" rx="16" fill="url(#bg_grad)" stroke="#1E293B" stroke-width="2"/>
+  <rect width="800" height="270" rx="16" fill="url(#noise)"/>
+
+  <!-- Üst macOS Bar -->
+  <path d="M 0 16 Q 0 0 16 0 L 784 0 Q 800 0 800 16 L 800 45 L 0 45 Z" fill="#020617" opacity="0.6"/>
+  <circle cx="26" cy="22" r="6.5" fill="#FF5F56" />
+  <circle cx="48" cy="22" r="6.5" fill="#FFBD2E" />
+  <circle cx="70" cy="22" r="6.5" fill="#27C93F" />
+  <text x="400" y="27" class="terminal-top" text-anchor="middle">hyperzno@macbook-pro:~</text>
+
+  <!-- SOL KISIM: Neofetch stili bilgi -->
+  <text x="35" y="85" class="prompt">❯ <tspan class="command">neofetch --user hyperzno</tspan></text>
+  
+  <text x="35" y="135" class="title">Bünyamin Kızılkaya</text>
+  
+  <text x="35" y="175" class="output"><tspan class="accent">Role   » </tspan>Frontend Developer</text>
+  <text x="35" y="200" class="output"><tspan class="accent">Stack  » </tspan>React, Next.js, JavaScript</text>
+  <text x="35" y="225" class="output"><tspan class="accent">Focus  » </tspan>Web Apps &amp; Premium UI/UX</text>
+
+  <!-- SAĞ KISIM: İlerleme Çubukları & Statüler (Kopyalamamak için farklı gösterim tarzı) -->
+  <text x="480" y="85" class="output"><tspan class="accent">System Distribution</tspan></text>
+  
+  <!-- Frontend Yeteneği -->
+  <text x="480" y="125" class="output">Frontend</text>
+  <rect x="575" y="115" width="185" height="10" rx="5" class="bar-bg"/>
+  <rect x="575" y="115" width="170" height="10" rx="5" class="bar-fill"/>
+
+  <!-- UI/UX Design -->
+  <text x="480" y="155" class="output">UI / UX</text>
+  <rect x="575" y="145" width="185" height="10" rx="5" class="bar-bg"/>
+  <rect x="575" y="145" width="145" height="10" rx="5" class="bar-fill-secondary"/>
+
+  <!-- Backend Yeteneği (daha düşük oranda ve ufak) -->
+  <text x="480" y="185" class="output">Backend</text>
+  <rect x="575" y="175" width="185" height="10" rx="5" class="bar-bg"/>
+  <rect x="575" y="175" width="60" height="10" rx="5" class="bar-fill-tertiary"/>
+
+  <!-- Alt Statü Etiketleri -->
+  <rect x="480" y="210" width="100" height="28" rx="6" fill="#38BDF8" opacity="0.1" stroke="#38BDF8" stroke-width="1.5"/>
+  <text x="530" y="229" class="tag" fill="#38BDF8" text-anchor="middle">ONLINE</text>
+
+  <rect x="595" y="210" width="165" height="28" rx="6" fill="#F472B6" opacity="0.1" stroke="#F472B6" stroke-width="1.5"/>
+  <text x="677" y="229" class="tag" fill="#F472B6" text-anchor="middle">WRITING CODE</text>
+
+</svg>
